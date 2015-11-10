@@ -9,6 +9,6 @@ header('Content-Type: text/html; charset=utf-8');
     <script src="/vendor/public/jquery/dist/jquery.min.js"></script>
 </header>
 <body>
-<div>начальная тестовая страница</div>
+<div>Начальная тестовая страница</div>
 </body>
 </html>
