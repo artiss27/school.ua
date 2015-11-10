@@ -9,6 +9,8 @@ header('Content-Type: text/html; charset=utf-8');
     <script src="/vendor/public/jquery/dist/jquery.min.js"></script>
 </header>
 <body>
+<!--div.header>ul>li*5 далее ажимаем TAB-->
+
 <div>Начальная тестовая страница</div>
 </body>
 </html>
