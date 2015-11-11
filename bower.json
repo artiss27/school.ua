@@ -4,7 +4,7 @@
   "main": "",
   "moduleType": [],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/artiss27/school.ua",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,5 +15,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4"
-  }
+  },
+  "authors": [
+    "artiss27 <monyak328132>"
+  ]
 }
