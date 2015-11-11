@@ -6,6 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/facebook/php-sdk" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/public/bootstrap" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/public/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/public/lesshat" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -24,14 +25,14 @@
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/facebook/php-sdk" />
-          <root url="file://$MODULE_DIR$/vendor/public/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/public/jquery" />
+          <root url="file://$MODULE_DIR$/vendor/public/lesshat" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/facebook/php-sdk" />
-          <root url="file://$MODULE_DIR$/vendor/public/bootstrap" />
           <root url="file://$MODULE_DIR$/vendor/public/jquery" />
+          <root url="file://$MODULE_DIR$/vendor/public/lesshat" />
         </SOURCES>
       </library>
     </orderEntry>
