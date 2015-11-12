@@ -5,20 +5,29 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+}
 
   .auth {
     margin: auto;
     max-width: 970px;
 
+    .button {
+      background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%) repeat scroll 0 0;
+      color: white;
+    }
+    .button:hover {
+      background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a90329*2 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%) repeat scroll 0 0;
+    }
+
     form {
-      background-color: white;
+      background: rgba(0, 0, 0, 0) linear-gradient(45deg, #e1f0f9 0%, #b4c5cf 42%, #d9e2e8 60%, #f2f6f8 100%) repeat scroll 0 0;
       border: 1px solid;
       border-radius: 40px;
       border-top-left-radius: 0;
       box-shadow: 2px 5px 30px 0;
       height: 500px;
       margin: 50px auto;
-      width: 500px;
+      max-width: 500px;
 
       table {
         height: 100%;
@@ -28,11 +37,12 @@ body {
 
         input {
           border: medium none;
+          border-radius: 6px;
           box-shadow: 2px 2px 5px 0;
           font-size: 16px;
+          padding: 4px;
           width: 100%;
         }
       }
     }
   }
-}
