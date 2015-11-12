@@ -1,8 +1,13 @@
 .body {
   background-color: gray;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
 .body {
-  color: red;
+  color: gray;
 }
 .body {
   font-size: 20px;

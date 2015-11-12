@@ -4,13 +4,19 @@ ini_set('display_errors', 1);
 header('Content-Type: text/html; charset=utf-8');
 //session_start();
 ?>
-<html>
-<header>
-</header>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Домашка уровень 2</title>
+    <link href="/styles/4.css" rel="stylesheet">
+    <script src="/vendor/public/jquery/dist/jquery.min.js"></script>
+</head>
 <body>
 <!--div.header>ul>li*5 далее ажимаем TAB-->
 <div class="auth">
-    <form action="" method="post"><br>
+    <form action="" method="post">
         <table>
             <tr>
                 <td>Логин</td>
