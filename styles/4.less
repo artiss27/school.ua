@@ -1,4 +1,5 @@
 @import '../vendor/public/lesshat/build/lesshat';
+@import '../styles/librery';
 
 body {
   background-color: gray;
@@ -12,19 +13,26 @@ body {
     max-width: 970px;
 
     .button {
-      background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%) repeat scroll 0 0;
+      .button_auth();
       color: white;
     }
     .button:hover {
-      background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #a90329*2 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%) repeat scroll 0 0;
+      .button_auth_hover();
     }
 
     form {
-      background: rgba(0, 0, 0, 0) linear-gradient(45deg, #e1f0f9 0%, #b4c5cf 42%, #d9e2e8 60%, #f2f6f8 100%) repeat scroll 0 0;
+      background: #e0eff9;
+      background: -moz-linear-gradient(45deg, #e0eff9 0%, #b5c6d0 42%, #d8e1e7 54%, #f2f6f8 66%, #f2f6f8 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, #e0eff9), color-stop(42%, #b5c6d0), color-stop(54%, #d8e1e7), color-stop(66%, #f2f6f8), color-stop(100%, #f2f6f8));
+      background: -webkit-linear-gradient(45deg, #e0eff9 0%, #b5c6d0 42%, #d8e1e7 54%, #f2f6f8 66%, #f2f6f8 100%);
+      background: -o-linear-gradient(45deg, #e0eff9 0%, #b5c6d0 42%, #d8e1e7 54%, #f2f6f8 66%, #f2f6f8 100%);
+      background: -ms-linear-gradient(45deg, #e0eff9 0%, #b5c6d0 42%, #d8e1e7 54%, #f2f6f8 66%, #f2f6f8 100%);
+      background: linear-gradient(45deg, #e0eff9 0%, #b5c6d0 42%, #d8e1e7 54%, #f2f6f8 66%, #f2f6f8 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0eff9', endColorstr='#f2f6f8', GradientType=1 );
       border: 1px solid;
-      border-radius: 40px;
-      border-top-left-radius: 0;
-      box-shadow: 2px 5px 30px 0;
+      .border-radius(40px);
+      .border-top-left-radius(0);
+      .box-shadow(2px 5px 30px 0);
       height: 500px;
       margin: 50px auto;
       max-width: 500px;
@@ -37,8 +45,8 @@ body {
 
         input {
           border: medium none;
-          border-radius: 6px;
-          box-shadow: 2px 2px 5px 0;
+          .border-radius(0 10px 10px 0);
+          .box-shadow(2px 2px 5px 0);
           font-size: 16px;
           padding: 4px;
           width: 100%;
@@ -46,3 +54,30 @@ body {
       }
     }
   }
+
+  /*
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.myclass3 {
+  &:extend(.clearfix all);
+  height: 500px;
+  .float {
+    float:left;
+    width:200px;
+  }
+}
+
+<div class="myclass3">
+    <div class="float">A</div>
+    <div class="float">B</div>
+</div>
+  */
