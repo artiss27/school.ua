@@ -9,25 +9,14 @@ body {
   max-width: 970px;
 }
 .auth .button {
-  background: #a90329;
-  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a90329), color-stop(44%, #8f0222), color-stop(56%, #6d0019), color-stop(100%, #6d0019));
-  background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -o-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -ms-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a90329', endColorstr='#6d0019', GradientType=0);
+  -webkit-box-shadow: 0 29px 6px -15px #c56b51 inset;
+  -moz-box-shadow: 0 29px 6px -15px #c56b51 inset;
+  box-shadow: 0 29px 6px -15px #c56b51 inset;
+  background-color: #6d0019;
   color: white;
 }
 .auth .button:hover {
-  background: #a90329;
-  background: -moz-linear-gradient(top, #ff0652 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ff0652), color-stop(44%, #8f0222), color-stop(56%, #6d0019), color-stop(100%, #6d0019));
-  background: -webkit-linear-gradient(top, #ff0652 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -o-linear-gradient(top, #ff0652 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: -ms-linear-gradient(top, #ff0652 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  background: linear-gradient(to bottom, #ff0652 0%, #8f0222 44%, #6d0019 56%, #6d0019 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a90329*2', endColorstr='#6d0019', GradientType=0);
+  background-color: #d30030;
 }
 .auth form {
   background: #e0eff9;
