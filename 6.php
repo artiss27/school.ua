@@ -16,7 +16,7 @@
 <body>
 <div class="main">
   <div class="header">
-    <a href="/"><img src="/img/6/logo.png" alt="логотип"></a>
+    <a class="logo" href="/"><img src="/img/6/logo.png" alt="логотип"></a>
     <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
     <div class="navigation content">
       <ul>
