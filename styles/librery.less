@@ -1,10 +1,11 @@
 @import '../vendor/public/lesshat/build/lesshat';
 
 .myButton(@box-shadow:0, @background-color:#6d0019) {
-  .box-shadow(@box-shadow);
+  @box-shadow-color: lighten(@background-color, 50%);
+  .box-shadow(@box-shadow-color @box-shadow);
   background-color:@background-color;
   &:hover {
-    background-color:lighten(@background-color, 20%);
+    background-color: lighten(@background-color, 20%);
   }
 }
 
