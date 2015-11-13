@@ -9,7 +9,7 @@
 <style>
 @font-face {
 	font-family: Anton; /* Гарнитура шрифта */
-	src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом */
+	src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом  */
 }
 </style>
 </head>
