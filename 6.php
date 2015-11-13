@@ -2,19 +2,47 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Домашнее задание</title>
+<title>Домашнее задание 2</title>
 <meta name="keywords" content="проверка, домашка">
 <meta name="description" content="Проверка домашней работы">
 <link href="/styles/6.css" rel="stylesheet" type="text/css" media="screen">
 <style>
 @font-face {
 	font-family: Anton; /* Гарнитура шрифта */
-	src: url(../../css/fonts/Anton.ttf); /* Путь к файлу со шрифтом */
+	src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом */
 }
 </style>
 </head>
-
 <body>
+<div class="main">
+  <div class="header">
+    <a href="/"><img src="/img/6/logo.png" alt="логотип"></a>
+    <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
+    <div class="navigation content">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACTS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+
+  </div>
+
+  <div class="footer">
+
+  </div>
+</div>
+
+
+
+
+<!--
 <div class="main">
   <table class="header content">
     <tr>
@@ -60,7 +88,8 @@
   </table>
   <table class="line content">
   </table>
-  <!--<span class="line"></span>-->
+
+
   <table class="info content">
     <tr>
       <td class="col"><p class="h3_b">welcome!</p>
@@ -102,5 +131,6 @@
           </tr>
     </table>
 </div>
+-->
 </body>
 </html>
