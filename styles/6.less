@@ -1,44 +1,139 @@
 @import '../vendor/public/lesshat/build/lesshat';
-@import '../styles/librery';
-/*
+@import 'library';
+
 .clearfix {
-	&:before,
-	&:after {
-	  content: " ";
-	  display: table;
-	}
-	&:after {
-	  clear: both;
-	}
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
 }
 
-.myclass3 {
-	&:extend(.clearfix all);
-	height: 500px;
-	.float {
-	  float:left;
-	  width:200px;
-	}
+@media screen and (max-width: 750px) {
+  select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    font-size: 16px;
+  }
 }
 
-<div class="myclass3">
-  <div class="float">A</div>
-  <div class="float">B</div>
-</div>
-*/
+p {
+  color: #c5baa2
+}
+
+a {
+  color: #ffae19;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.dark {
+  color: #6c2a01;
+  margin: 0;
+}
+
 body {
-	background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
-	color: #c5baa2;
-	margin: 0;
-	padding: 0;
+  background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
+  color: #c5baa2;
+  margin: 0;
+  padding: 0;
 }
+
 .main {
-	width: 1110px;
-	background: white;
-	margin: auto;
+  max-width: 1110px;
+  background: white;
+  margin: auto;
+}
+
+.content {
+  .box-sizing(border-box);
+  margin: auto;
+  padding: 0 12px;
+  width: 960px;
+}
+
+.header {
+  .top {
+    &:extend(.clearfix all);
+    padding-top: 60px;
+    .logo {
+      float: left;
+    }
+    .dark {
+      float: right;
+      font-size: 10px;
+      margin: 44px 0 0;
+      a {
+        &:hover {
+          color: #5b1e01;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.navigation {
+  margin-top: 30px;
+  ul {
+    &:extend(.clearfix all);
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      background: #5b1e01 url("../img/6/bg-menu.jpg") repeat-x scroll 0 0;
+      height: 85px;
+      width: 100%/6;
+      border-left: 1px solid #000;
+      border-right: 1px solid #743104;
+      list-style-type: none;
+      text-align: center;
+      .box-sizing(border-box);
+      a {
+        color: #fff;
+        font-size: 20px;
+        font-family: "Anton", sans-serif;
+        display: block;
+        padding: 28px;
+        &:hover {
+          background: url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
+          transition: all 1s ease 0s;
+          border: none;
+        }
+      }
+      &:nth-child(1) {
+        background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
+        border: none;
+      }
+      &:nth-child(6) {
+        border-right: none;
+      }
+    }
+  }
 }
 
 
+/*
+.menu {
+  float: left;
+  width: 20%;
+  display: block;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    float: none;
+    li {
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    display: none;
+  }
+}
+*/
 
 /*
 body {
@@ -256,4 +351,31 @@ th img {
 .footer_info a:hover {
 	color: #fff;
 }
+*/
+
+/*
+.clearfix {
+	&:before,
+	&:after {
+	  content: " ";
+	  display: table;
+	}
+	&:after {
+	  clear: both;
+	}
+}
+
+.myclass3 {
+	&:extend(.clearfix all);
+	height: 500px;
+	.float {
+	  float:left;
+	  width:200px;
+	}
+}
+
+<div class="myclass3">
+  <div class="float">A</div>
+  <div class="float">B</div>
+</div>
 */

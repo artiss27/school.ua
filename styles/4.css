@@ -64,27 +64,27 @@ body {
 }
 /*
 .clearfix {
-  &:before,
-  &:after {
-    content: " ";
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
+&:before,
+&:after {
+  content: " ";
+  display: table;
+}
+&:after {
+  clear: both;
+}
 }
 
 .myclass3 {
-  &:extend(.clearfix all);
-  height: 500px;
-  .float {
-    float:left;
-    width:200px;
-  }
+&:extend(.clearfix all);
+height: 500px;
+.float {
+  float:left;
+  width:200px;
+}
 }
 
 <div class="myclass3">
-    <div class="float">A</div>
-    <div class="float">B</div>
+  <div class="float">A</div>
+  <div class="float">B</div>
 </div>
-  */
+*/

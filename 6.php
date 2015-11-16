@@ -1,45 +1,45 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Домашнее задание 2</title>
-<meta name="keywords" content="проверка, домашка">
-<meta name="description" content="Проверка домашней работы">
-<link href="/styles/6.css" rel="stylesheet" type="text/css" media="screen">
-<style>
-@font-face {
-	font-family: Anton; /* Гарнитура шрифта */
-	src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом  */
-}
-</style>
+    <meta charset="utf-8">
+    <title>Домашнее задание 2</title>
+    <meta name="keywords" content="проверка, домашка">
+    <meta name="description" content="Проверка домашней работы">
+    <link href="/styles/6.css" rel="stylesheet" type="text/css" media="screen">
+    <style>
+        @font-face {
+            font-family: Anton; /* Гарнитура шрифта */
+            src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом  */
+        }
+    </style>
 </head>
 <body>
 <div class="main">
-  <div class="header">
-    <a class="logo" href="/"><img src="/img/6/logo.png" alt="логотип"></a>
-    <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
-    <div class="navigation content">
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PRODUCTS</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">CONTACTS</a></li>
-      </ul>
+    <div class="header content">
+        <div class="top">
+            <a class="logo" href="/"><img src="/img/6/logo.png" alt="логотип"></a>
+            <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
 
-  <div class="content">
+    <div class="content">
 
-  </div>
+    </div>
 
-  <div class="footer">
+    <div class="footer">
 
-  </div>
+    </div>
 </div>
-
-
 
 
 <!--

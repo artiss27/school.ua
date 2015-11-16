@@ -1,29 +1,51 @@
-/*
-.clearfix {
-	&:before,
-	&:after {
-	  content: " ";
-	  display: table;
-	}
-	&:after {
-	  clear: both;
-	}
+.clearfix:before,
+.clearfix:after,
+.header .top:before,
+.header .top:after,
+.navigation ul:before,
+.navigation ul:after {
+  content: " ";
+  display: table;
 }
-
-.myclass3 {
-	&:extend(.clearfix all);
-	height: 500px;
-	.float {
-	  float:left;
-	  width:200px;
-	}
+.clearfix:after,
+.header .top:after,
+.navigation ul:after {
+  clear: both;
 }
-
-<div class="myclass3">
-  <div class="float">A</div>
-  <div class="float">B</div>
-</div>
-*/
+@media screen and (max-width: 750px) {
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"] {
+    font-size: 16px;
+  }
+}
+p {
+  color: #c5baa2;
+}
+a {
+  color: #ffae19;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.dark {
+  color: #6c2a01;
+  margin: 0;
+}
 body {
   background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
   color: #c5baa2;
@@ -31,10 +53,90 @@ body {
   padding: 0;
 }
 .main {
-  width: 1110px;
+  max-width: 1110px;
   background: white;
   margin: auto;
 }
+.content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0 12px;
+  width: 960px;
+}
+.header .top {
+  padding-top: 60px;
+}
+.header .top .logo {
+  float: left;
+}
+.header .top .dark {
+  float: right;
+  font-size: 10px;
+  margin: 44px 0 0;
+}
+.header .top .dark a:hover {
+  color: #5b1e01;
+  text-decoration: underline;
+}
+.navigation {
+  margin-top: 30px;
+}
+.navigation ul {
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li {
+  float: left;
+  background: #5b1e01 url("../img/6/bg-menu.jpg") repeat-x scroll 0 0;
+  height: 85px;
+  width: 16.66666667%;
+  border-left: 1px solid #000;
+  border-right: 1px solid #743104;
+  list-style-type: none;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.navigation ul li a {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  display: block;
+  padding: 28px;
+}
+.navigation ul li a:hover {
+  background: url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
+  transition: all 1s ease 0s;
+  border: none;
+}
+.navigation ul li:nth-child(1) {
+  background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
+  border: none;
+}
+.navigation ul li:nth-child(6) {
+  border-right: none;
+}
+/*
+.menu {
+  float: left;
+  width: 20%;
+  display: block;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    float: none;
+    li {
+      display: inline-block;
+      padding: 5px;
+    }
+  }
+  @media screen and (max-width: 480px){
+    display: none;
+  }
+}
+*/
 /*
 body {
 	background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
@@ -251,4 +353,30 @@ th img {
 .footer_info a:hover {
 	color: #fff;
 }
+*/
+/*
+.clearfix {
+	&:before,
+	&:after {
+	  content: " ";
+	  display: table;
+	}
+	&:after {
+	  clear: both;
+	}
+}
+
+.myclass3 {
+	&:extend(.clearfix all);
+	height: 500px;
+	.float {
+	  float:left;
+	  width:200px;
+	}
+}
+
+<div class="myclass3">
+  <div class="float">A</div>
+  <div class="float">B</div>
+</div>
 */
