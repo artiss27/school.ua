@@ -27,7 +27,7 @@
                 <li><a href="#">PRODUCTS</a></li>
                 <li><a href="#">SERVICES</a></li>
                 <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACTS</a></li>
+                <li><div class="animate_menu"><a href="#">CONTACTS</a></div></li>
             </ul>
         </div>
     </div>

@@ -100,6 +100,9 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.navigation ul li .animate_menu {
+  width: 0;
+}
 .navigation ul li a {
   color: #fff;
   font-size: 20px;
@@ -107,10 +110,16 @@ body {
   display: block;
   padding: 28px;
 }
-.navigation ul li a:hover {
-  background: url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
-  transition: all 1s ease 0s;
+.navigation ul li:hover {
   border: none;
+}
+.navigation ul li:hover .animate_menu {
+  background: #FFB822 repeat-x scroll 0 0;
+  width: 100%;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
 }
 .navigation ul li:nth-child(1) {
   background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;

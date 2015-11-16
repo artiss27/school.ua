@@ -92,17 +92,23 @@ body {
       list-style-type: none;
       text-align: center;
       .box-sizing(border-box);
+      .animate_menu {
+        width: 0;
+      }
       a {
         color: #fff;
         font-size: 20px;
         font-family: "Anton", sans-serif;
         display: block;
         padding: 28px;
-        &:hover {
-          background: url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
-          transition: all 1s ease 0s;
-          border: none;
+      }
+      &:hover {
+        .animate_menu {
+          background: #FFB822 repeat-x scroll 0 0;
+          width: 100%;
+          .transition(all 0.2s linear 0s);
         }
+        border: none;
       }
       &:nth-child(1) {
         background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
