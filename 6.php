@@ -44,7 +44,7 @@
             </ul>
         </div>
         <div class="m_navigation">
-            <select name="menu" title="menu">
+            <select name="menu">
                 <option value="#" selected>HOME</option>
                 <option value="#">ABOUT</option>
                 <option value="#"> - HISTORY</option>
