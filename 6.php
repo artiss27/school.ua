@@ -22,12 +22,12 @@
         </div>
         <div class="navigation">
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PRODUCTS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><div class="animate_menu"><a href="#">CONTACTS</a></div></li>
+                <li><div class="animate_menu"></div><a href="#">HOME</a></li>
+                <li><div class="animate_menu"></div><a href="#">ABOUT</a></li>
+                <li><div class="animate_menu"></div><a href="#">PRODUCTS</a></li>
+                <li><div class="animate_menu"></div><a href="#">SERVICES</a></li>
+                <li><div class="animate_menu"></div><a href="#">BLOG</a></li>
+                <li><div class="animate_menu"></div><a href="#">CONTACTS</a></li>
             </ul>
         </div>
     </div>
