@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
     font-size: 16px;
   }
@@ -51,7 +51,7 @@ body {
 .content {
   .box-sizing(border-box);
   margin: auto;
-  padding: 0 12px;
+  padding: 5px 12px;
   max-width: 960px;
 }
 
@@ -59,13 +59,26 @@ body {
   .top {
     &:extend(.clearfix all);
     padding-top: 60px;
+    @media screen and (max-width: 420px) {
+      padding-top: 25px;
+    }
     .logo {
       float: left;
+      @media screen and (max-width: 420px) {
+        display: block;
+        float: none;
+        text-align: center;
+      }
     }
     .dark {
       float: right;
       font-size: 10px;
       margin: 44px 0 0;
+      @media screen and (max-width: 420px) {
+        float: none;
+        text-align: center;
+        margin: 25px 0 0;
+      }
       a {
         &:hover {
           color: #5b1e01;
@@ -77,7 +90,11 @@ body {
 }
 
 .navigation {
+  display: block;
   margin-top: 30px;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
   ul {
     &:extend(.clearfix all);
     margin: 0;
@@ -95,20 +112,6 @@ body {
       text-align: center;
       font-size: 20px;
       font-family: "Anton", sans-serif;
-      .animate_menu {
-        background: #FFB822 repeat-x scroll 0 0;
-        width: 0;
-        height: 100%;
-        .transition(all 0.2s linear 0s);
-      }
-      a {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        color: #fff;
-        display: block;
-        padding: 28px 0;
-      }
       &:hover {
         .animate_menu {
           width: 100%;
@@ -123,7 +126,36 @@ body {
       &:nth-child(6) {
         border-right: none;
       }
+      .animate_menu {
+        background: #FFB822 repeat-x scroll 0 0;
+        width: 0;
+        height: 100%;
+        .transition(all 0.2s linear 0s);
+      }
+      a {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        color: #fff;
+        display: block;
+        padding: 28px 0;
+      }
     }
+  }
+}
+.m_navigation {
+  display: none;
+  padding: 25px;
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
+  select {
+    width: 100%;
+  }
+}
+.banner {
+  img {
+    width: 100%;
   }
 }
 

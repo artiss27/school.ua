@@ -12,7 +12,7 @@
 .navigation ul:after {
   clear: both;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   select,
   textarea,
   input[type="text"],
@@ -62,26 +62,51 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: auto;
-  padding: 0 12px;
+  padding: 5px 12px;
   max-width: 960px;
 }
 .header .top {
   padding-top: 60px;
 }
+@media screen and (max-width: 420px) {
+  .header .top {
+    padding-top: 25px;
+  }
+}
 .header .top .logo {
   float: left;
+}
+@media screen and (max-width: 420px) {
+  .header .top .logo {
+    display: block;
+    float: none;
+    text-align: center;
+  }
 }
 .header .top .dark {
   float: right;
   font-size: 10px;
   margin: 44px 0 0;
 }
+@media screen and (max-width: 420px) {
+  .header .top .dark {
+    float: none;
+    text-align: center;
+    margin: 25px 0 0;
+  }
+}
 .header .top .dark a:hover {
   color: #5b1e01;
   text-decoration: underline;
 }
 .navigation {
+  display: block;
   margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .navigation {
+    display: none;
+  }
 }
 .navigation ul {
   margin: 0;
@@ -103,6 +128,23 @@ body {
   font-size: 20px;
   font-family: "Anton", sans-serif;
 }
+.navigation ul li:hover {
+  border: none;
+}
+.navigation ul li:hover .animate_menu {
+  width: 100%;
+  -webkit-transition: all 0.2s linear 0s;
+  -moz-transition: all 0.2s linear 0s;
+  -o-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+.navigation ul li:nth-child(1) {
+  background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
+  border: none;
+}
+.navigation ul li:nth-child(6) {
+  border-right: none;
+}
 .navigation ul li .animate_menu {
   background: #FFB822 repeat-x scroll 0 0;
   width: 0;
@@ -120,22 +162,20 @@ body {
   display: block;
   padding: 28px 0;
 }
-.navigation ul li:hover {
-  border: none;
+.m_navigation {
+  display: none;
+  padding: 25px;
 }
-.navigation ul li:hover .animate_menu {
+@media screen and (max-width: 768px) {
+  .m_navigation {
+    display: block;
+  }
+}
+.m_navigation select {
   width: 100%;
-  -webkit-transition: all 0.2s linear 0s;
-  -moz-transition: all 0.2s linear 0s;
-  -o-transition: all 0.2s linear 0s;
-  transition: all 0.2s linear 0s;
 }
-.navigation ul li:nth-child(1) {
-  background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
-  border: none;
-}
-.navigation ul li:nth-child(6) {
-  border-right: none;
+.banner img {
+  width: 100%;
 }
 /*
 

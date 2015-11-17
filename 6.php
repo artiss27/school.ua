@@ -18,22 +18,52 @@
     <div class="header content">
         <div class="top">
             <a class="logo" href="/"><img src="/img/6/logo.png" alt="логотип"></a>
+
             <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
         </div>
         <div class="navigation">
             <ul>
-                <li><div class="animate_menu"></div><a href="#">HOME</a></li>
-                <li><div class="animate_menu"></div><a href="#">ABOUT</a></li>
-                <li><div class="animate_menu"></div><a href="#">PRODUCTS</a></li>
-                <li><div class="animate_menu"></div><a href="#">SERVICES</a></li>
-                <li><div class="animate_menu"></div><a href="#">BLOG</a></li>
-                <li><div class="animate_menu"></div><a href="#">CONTACTS</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">HOME</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">ABOUT</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">PRODUCTS</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">SERVICES</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">BLOG</a></li>
+                <li>
+                    <div class="animate_menu"></div>
+                    <a href="#">CONTACTS</a></li>
             </ul>
+        </div>
+        <div class="m_navigation">
+            <select name="menu" title="menu">
+                <option value="#" selected>HOME</option>
+                <option value="#">ABOUT</option>
+                <option value="#"> - HISTORY</option>
+                <option value="#"> - NEWS</option>
+                <option value="#"> - - LATEST</option>
+                <option value="#"> - - ARCHIVE</option>
+                <option value="#"> - TESTIMONIALS</option>
+                <option value="#">PRODUCTS</option>
+                <option value="#">SERVICES</option>
+                <option value="#">BLOG</option>
+                <option value="#">CONTACTS</option>
+            </select>
         </div>
     </div>
 
     <div class="content">
-
+        <div class="banner">
+            <img src="/img/6/central.jpg" alt="слайдер">
+        </div>
     </div>
 
     <div class="footer">
