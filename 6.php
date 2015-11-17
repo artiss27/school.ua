@@ -23,22 +23,33 @@
         </div>
         <div class="navigation">
             <ul>
-                <li>
+                <li class="level1">
                     <div class="animate_menu"></div>
                     <a href="#">HOME</a></li>
-                <li>
+                <li class="hr_level2">
                     <div class="animate_menu"></div>
-                    <a href="#">ABOUT</a></li>
-                <li>
+                    <a href="#">ABOUT <sup>&or;</sup></a>
+                    <ul class="level2">
+                        <li><a href="#">HISTORY</a></li>
+                        <li class="hr_level3"><a href="#">NEWS &gt;</a>
+                            <ul class="level3">
+                                <li><a href="#">HISTORY</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">TESTIMONIALS</a></li>
+                    </ul>
+                </li>
+                <li class="level1">
                     <div class="animate_menu"></div>
                     <a href="#">PRODUCTS</a></li>
-                <li>
+                <li class="level1">
                     <div class="animate_menu"></div>
                     <a href="#">SERVICES</a></li>
-                <li>
+                <li class="level1">
                     <div class="animate_menu"></div>
                     <a href="#">BLOG</a></li>
-                <li>
+                <li class="level1">
                     <div class="animate_menu"></div>
                     <a href="#">CONTACTS</a></li>
             </ul>
