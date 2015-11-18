@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Домашнее задание 2</title>
     <meta name="keywords" content="проверка, домашка">
     <meta name="description" content="Проверка домашней работы">
