@@ -18,6 +18,7 @@ body {
   max-width: 1110px;
   background: white;
   margin: auto;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 .clearfix {
@@ -35,7 +36,7 @@ section, article, aside, footer, header, nav, hgroup {
   display: block;
 }
 
-header, main, footer {
+header, main {
   .box-sizing(border-box);
   margin: auto;
   padding: 5px 12px;
@@ -75,7 +76,9 @@ h2 {
 }
 
 p {
-  color: #c5baa2
+  color: #c5baa2;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 a {
@@ -243,7 +246,7 @@ header {
 }
 
 .button {
-  background: #ff9f11 none repeat scroll 0 0;
+  background-color: #ff9f11;
   .border-radius(9px);
   color: white;
   display: inline-block;
@@ -252,7 +255,7 @@ header {
   padding: 10px 20px;
   .transition(all 0.3s ease 0s);
   &:hover {
-    background: #6B2A04;
+    background-color: #6B2A04;
     .transition(all 0.3s ease 0s);
   }
 }
@@ -288,13 +291,73 @@ header {
 .sect_2 {
   .info_3 {
     margin-top: 0;
-    padding: 0 10px;
+    padding: 0 25px;
     img {
       border: 5px solid #fff;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    .col_bg {
+      font-size: 20px;
+      font-weight: bold;
+      color: #d49d53;
+      line-height: 1.2em;
+      text-transform: uppercase;
+    }
+    .dark {
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .button {
+      background-color: #6B2A04;
+      &:hover {
+        background-color: #ff9f11;
+      }
+    }
+    a {
+      text-decoration: underline;
+      &:hover {
+        color: #5b1e01;
+        text-decoration: underline;
+      }
+    }
+    .info_small {
+      &:extend(.clearfix all);
+      .circle {
+        background-color: #ff9f11;
+        border-radius: 50%;
+        color: #fff;
+        float: left;
+        font-family: "Anton",sans-serif;
+        font-size: 30px;
+        height: 52px;
+        margin-right: 10px;
+        margin-top: 6px;
+        text-align: center;
+        width: 52px;
+      }
+      .big {
+        font-size: 36px;
+        line-height: 1.2em;
+        font-size-adjust: 2px;
+        font-weight: normal;
+        font-family: "Anton", sans-serif;
+        color: #d49d53;
+        text-transform: uppercase;
+      }
     }
   }
 }
 
+
+
+
+footer {
+  background: #622103;
+  height: 134px;
+  width: 100%;
+  margin-top: 80px;
+}
 /*
 
 .menu {
