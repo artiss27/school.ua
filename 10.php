@@ -31,7 +31,7 @@
     <nav class="nav_top">
         <ul>
             <li class="level1">
-                <div class="animate_menu"></div>
+                <div class="animate_menu"></div>1
                 <a href="#">HOME</a></li>
             <li class="hr_level2">
                 <div class="animate_menu"></div>
