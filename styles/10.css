@@ -20,13 +20,19 @@ body {
 header .top:before,
 header .top:after,
 .nav_top ul:before,
-.nav_top ul:after {
+.nav_top ul:after,
+.sect_1:before,
+.sect_1:after,
+.sect_2:before,
+.sect_2:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
 header .top:after,
-.nav_top ul:after {
+.nav_top ul:after,
+.sect_1:after,
+.sect_2:after {
   clear: both;
 }
 section,
@@ -248,6 +254,18 @@ header .top .dark a:hover {
 }
 .banner img {
   width: 100%;
+}
+.line {
+  background: rgba(0, 0, 0, 0) url("../img/6/divider.png") repeat-x scroll 0 0;
+  height: 4px;
+}
+.sect_1 .info_3,
+.sect_2 .info_3 {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333333%;
 }
 /*
 

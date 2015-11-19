@@ -215,6 +215,26 @@ header {
   }
 }
 
+.line {
+  background: rgba(0, 0, 0, 0) url("../img/6/divider.png") repeat-x scroll 0 0;
+  height: 4px;
+}
+
+.sect_1, .sect_2 {
+  &:extend(.clearfix all);
+  .info_3 {
+    float: left;
+    .box-sizing(border-box);
+    width: 100%/3;
+  }
+}
+
+.sect_1 {
+}
+
+.sect_2 {
+}
+
 /*
 
 .menu {
