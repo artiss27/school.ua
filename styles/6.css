@@ -2,14 +2,14 @@
 .clearfix:after,
 .header .top:before,
 .header .top:after,
-.nav ul:before,
-.nav ul:after {
+.nav_top ul:before,
+.nav_top ul:after {
   content: " ";
   display: table;
 }
 .clearfix:after,
 .header .top:after,
-.nav ul:after {
+.nav_top ul:after {
   clear: both;
 }
 @font-face {
@@ -105,22 +105,22 @@ body {
   color: #5b1e01;
   text-decoration: underline;
 }
-.nav {
+.nav_top {
   display: block;
   margin-top: 30px;
 }
 @media screen and (max-width: 768px) {
-  .nav {
+  .nav_top {
     display: none;
   }
 }
-.nav ul {
+.nav_top ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-.nav ul .level1,
-.nav ul .hr_level2 {
+.nav_top ul .level1,
+.nav_top ul .hr_level2 {
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -135,33 +135,33 @@ body {
   font-size: 20px;
   font-family: "Anton", sans-serif;
 }
-.nav ul .level1:hover,
-.nav ul .hr_level2:hover {
+.nav_top ul .level1:hover,
+.nav_top ul .hr_level2:hover {
   border: none;
 }
-.nav ul .level1:hover .animate_menu,
-.nav ul .hr_level2:hover .animate_menu {
+.nav_top ul .level1:hover .animate_menu,
+.nav_top ul .hr_level2:hover .animate_menu {
   width: 100%;
   -webkit-transition: all 0.2s linear 0s;
   -moz-transition: all 0.2s linear 0s;
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-.nav ul .level1:hover .level2,
-.nav ul .hr_level2:hover .level2 {
+.nav_top ul .level1:hover .level2,
+.nav_top ul .hr_level2:hover .level2 {
   display: block;
 }
-.nav ul .level1:nth-child(1),
-.nav ul .hr_level2:nth-child(1) {
+.nav_top ul .level1:nth-child(1),
+.nav_top ul .hr_level2:nth-child(1) {
   background: #FFB822 url("../img/6/bg_menu_active.jpg") repeat-x scroll 0 0;
   border: none;
 }
-.nav ul .level1:nth-child(6),
-.nav ul .hr_level2:nth-child(6) {
+.nav_top ul .level1:nth-child(6),
+.nav_top ul .hr_level2:nth-child(6) {
   border-right: none;
 }
-.nav ul .level1 .animate_menu,
-.nav ul .hr_level2 .animate_menu {
+.nav_top ul .level1 .animate_menu,
+.nav_top ul .hr_level2 .animate_menu {
   background: #FFB822 repeat-x scroll 0 0;
   width: 0;
   height: 100%;
@@ -170,8 +170,8 @@ body {
   -o-transition: all 0.2s linear 0s;
   transition: all 0.2s linear 0s;
 }
-.nav ul .level1 a,
-.nav ul .hr_level2 a {
+.nav_top ul .level1 a,
+.nav_top ul .hr_level2 a {
   position: absolute;
   top: 0;
   width: 100%;
@@ -179,12 +179,12 @@ body {
   display: block;
   padding: 28px 0;
 }
-.nav ul .level1 sup,
-.nav ul .hr_level2 sup {
+.nav_top ul .level1 sup,
+.nav_top ul .hr_level2 sup {
   font-size: 10px;
 }
-.nav ul .level1 .level2,
-.nav ul .hr_level2 .level2 {
+.nav_top ul .level1 .level2,
+.nav_top ul .hr_level2 .level2 {
   display: none;
   background: #5b1e01 repeat-x scroll 0 0;
   font-family: arial;
@@ -192,21 +192,21 @@ body {
   font-size: 10px;
   padding: 20px 0;
 }
-.nav ul .level1 .level2 a,
-.nav ul .hr_level2 .level2 a {
+.nav_top ul .level1 .level2 a,
+.nav_top ul .hr_level2 .level2 a {
   position: static;
   padding: 0;
 }
-.nav ul .level1 .level2 a:hover,
-.nav ul .hr_level2 .level2 a:hover {
+.nav_top ul .level1 .level2 a:hover,
+.nav_top ul .hr_level2 .level2 a:hover {
   color: #D48100;
 }
-.nav ul .level1 .level2 .hr_level3,
-.nav ul .hr_level2 .level2 .hr_level3 {
+.nav_top ul .level1 .level2 .hr_level3,
+.nav_top ul .hr_level2 .level2 .hr_level3 {
   position: relative;
 }
-.nav ul .level1 .level2 .hr_level3 .level3,
-.nav ul .hr_level2 .level2 .hr_level3 .level3 {
+.nav_top ul .level1 .level2 .hr_level3 .level3,
+.nav_top ul .hr_level2 .level2 .hr_level3 .level3 {
   display: none;
   background: #FFB822 repeat-x scroll 0 0;
   position: absolute;
@@ -215,20 +215,20 @@ body {
   width: 70%;
   padding: 20px 0;
 }
-.nav ul .level1 .level2 .hr_level3:hover .level3,
-.nav ul .hr_level2 .level2 .hr_level3:hover .level3 {
+.nav_top ul .level1 .level2 .hr_level3:hover .level3,
+.nav_top ul .hr_level2 .level2 .hr_level3:hover .level3 {
   display: block;
 }
-.m_navigation {
+.nav_mobile {
   display: none;
   padding: 25px;
 }
 @media screen and (max-width: 768px) {
-  .m_navigation {
+  .nav_mobile {
     display: block;
   }
 }
-.m_navigation select {
+.nav_mobile select {
   width: 100%;
 }
 .banner img {

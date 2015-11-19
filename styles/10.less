@@ -1,6 +1,25 @@
 @import '../vendor/public/lesshat/build/lesshat';
 @import 'library';
 
+html, body {
+  padding: 0;
+  margin: 0;
+  /*height: 100%;*/
+}
+
+html {
+  background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
+  color: #c5baa2;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1110px;
+  background: white;
+  margin: auto;
+}
+
 .clearfix {
   &:before,
   &:after {
@@ -11,10 +30,23 @@
     clear: both;
   }
 }
-@font-face {
-  font-family: Anton; /* Гарнитура шрифта */
-  src: url(/styles/fonts/Anton.ttf); /* Путь к файлу со шрифтом  */
+
+section, article, aside, footer, header, nav, hgroup {
+  display: block;
 }
+
+header, main, footer {
+  .box-sizing(border-box);
+  margin: auto;
+  padding: 5px 12px;
+  max-width: 960px;
+}
+
+@font-face {
+  font-family: Anton;
+  src: url(/styles/fonts/Anton.ttf);
+}
+
 @media screen and (max-width: 768px) {
   select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
     font-size: 16px;
@@ -38,27 +70,7 @@ a {
   margin: 0;
 }
 
-body {
-  background: #d59e5e url("../img/6/bg-body.jpg") repeat scroll 0 0;
-  color: #c5baa2;
-  margin: 0;
-  padding: 0;
-}
-
-.main {
-  max-width: 1110px;
-  background: white;
-  margin: auto;
-}
-
-.content {
-  .box-sizing(border-box);
-  margin: auto;
-  padding: 5px 12px;
-  max-width: 960px;
-}
-
-.header {
+header {
   .top {
     &:extend(.clearfix all);
     padding-top: 60px;
@@ -92,7 +104,7 @@ body {
   }
 }
 
-.nav {
+.nav_top {
   display: block;
   margin-top: 30px;
   @media screen and (max-width: 768px) {
@@ -186,7 +198,7 @@ body {
   }
 }
 
-.m_navigation {
+.nav_mobile {
   display: none;
   padding: 25px;
   @media screen and (max-width: 768px) {

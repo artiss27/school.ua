@@ -27,7 +27,7 @@
 
             <div class="dark">HAVE AN ACCOUNT? <a href="#">SIGN IN</a> OR <a href="#">SIGN UP</a></div>
         </div>
-        <div class="nav">
+        <div class="nav_top">
             <ul>
                 <li class="level1">
                     <div class="animate_menu"></div>
@@ -60,7 +60,7 @@
                     <a href="#">CONTACTS</a></li>
             </ul>
         </div>
-        <div class="m_navigation">
+        <div class="nav_mobile">
             <select name="menu">
                 <option value="#" selected>HOME</option>
                 <option value="#">ABOUT</option>
