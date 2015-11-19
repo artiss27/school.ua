@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="/touch-icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/touch-icon-ipad-retina.png">
-    <link href="/styles/6.css" rel="stylesheet">
+    <link href="/styles/10.css" rel="stylesheet">
     <!--<script src="/scripts.js" defer></script>-->
     <script src="/vendor/public/jquery/dist/jquery.min.js"></script>
 </head>
