@@ -54,6 +54,25 @@ footer {
   padding: 5px 12px;
   max-width: 960px;
 }
+h2 {
+  color: #d29858;
+  font-family: "Anton", sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+}
+.h3_b {
+  color: #642503;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 36px;
+  margin-bottom: 19px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
 @font-face {
   font-family: Anton;
   src: url(/styles/fonts/Anton.ttf);
@@ -258,6 +277,32 @@ header .top .dark a:hover {
 .line {
   background: rgba(0, 0, 0, 0) url("../img/6/divider.png") repeat-x scroll 0 0;
   height: 4px;
+  margin: 50px 0;
+}
+.button {
+  background: #ff9f11 none repeat scroll 0 0;
+  -webkit-border-radius: 9px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 9px;
+  -moz-background-clip: padding;
+  border-radius: 9px;
+  background-clip: padding-box;
+  color: white;
+  display: inline-block;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.button:hover {
+  background: #6B2A04;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .sect_1 .info_3,
 .sect_2 .info_3 {
@@ -266,6 +311,37 @@ header .top .dark a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 33.33333333%;
+}
+.sect_1 .info_3 img,
+.sect_2 .info_3 img {
+  box-shadow: 1px 0 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.sect_1 {
+  text-align: center;
+}
+.sect_1 .info_3 {
+  padding: 10px;
+  margin-top: 20px;
+}
+.sect_1 .info_3 img {
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.sect_1 .info_3 p {
+  margin-top: 7px;
+}
+.sect_2 .info_3 {
+  margin-top: 0;
+  padding: 0 10px;
+}
+.sect_2 .info_3 img {
+  border: 5px solid #fff;
 }
 /*
 

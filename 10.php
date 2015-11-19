@@ -83,42 +83,39 @@
     </div>
     <div class="sect_1">
         <article class="info_3">
-            <img src="/img/6/page-img.png" alt="кукуруза" class="round">
+            <img src="/img/6/page-img.png" alt="кукуруза">
 
             <h2>New<br>
                 Technologies</h2>
 
             <p>At vero eos et accusamus et iusto ssimos ducimus qui blanditiistes es praesentiumvoluptatum
                 delenitimos.</p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </article>
         <article class="info_3">
-            <img src="/img/6/page-img-1.png" alt="огурцы" class="round">
+            <img src="/img/6/page-img-1.png" alt="огурцы">
 
             <h2>Frost<br>
                 protection</h2>
 
             <p>At vero eos et accusamus et iusto ssimos ducimus qui blanditiistes es praesentiumvoluptatum
                 delenitimos.</p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </article>
         <article class="info_3">
-            <img src="/img/6/page-img-2.png" alt="редиска" class="round">
+            <img src="/img/6/page-img-2.png" alt="редиска">
 
             <h2>eco<br>
                 solutions</h2>
 
             <p>At vero eos et accusamus et iusto ssimos ducimus qui blanditiistes es praesentiumvoluptatum
                 delenitimos.</p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </article>
     </div>
 
-
-
-
-
     <div class="line"></div>
+
     <div class="sect_2">
         <section class="info_3">
             <p class="h3_b">welcome!</p>
@@ -126,7 +123,7 @@
 
             <p>Ut vero eos et accusamus et iusto odio dignissimos ducimus qui voluptatum deleniti atque corrupti quos
                 dolores et quasmolestias exceptu. </p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </section>
         <section class="info_3">
             <p class="h3_b">our mission</p>
@@ -139,7 +136,7 @@
                 provident similique <a href="#">sunt in culpa qui</a> officia deserunt mollitia animi, id est laborum et
                 dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
                 nobis est eligendi opticumque </p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </section>
         <section class="info_3">
             <div class="info_small">
@@ -155,7 +152,7 @@
             </div>
             <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolorese
                 magna aiqu. </p>
-            <a href="#"><span class="button"></span></a>
+            <a class="button" href="#">MORE</a>
         </section>
     </div>
 </main>

@@ -42,6 +42,27 @@ header, main, footer {
   max-width: 960px;
 }
 
+h2 {
+  color: #d29858;
+  font-family: "Anton", sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 10px 0 0;
+}
+
+.h3_b {
+  color: #642503;
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 36px;
+  margin-bottom: 19px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
 @font-face {
   font-family: Anton;
   src: url(/styles/fonts/Anton.ttf);
@@ -218,6 +239,22 @@ header {
 .line {
   background: rgba(0, 0, 0, 0) url("../img/6/divider.png") repeat-x scroll 0 0;
   height: 4px;
+  margin: 50px 0;
+}
+
+.button {
+  background: #ff9f11 none repeat scroll 0 0;
+  .border-radius(9px);
+  color: white;
+  display: inline-block;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+  .transition(all 0.3s ease 0s);
+  &:hover {
+    background: #6B2A04;
+    .transition(all 0.3s ease 0s);
+  }
 }
 
 .sect_1, .sect_2 {
@@ -226,13 +263,36 @@ header {
     float: left;
     .box-sizing(border-box);
     width: 100%/3;
+    img {
+      box-shadow: 1px 0 5px;
+      box-sizing: border-box;
+      width: 100%;
+    }
   }
 }
 
 .sect_1 {
+  text-align: center;
+  .info_3 {
+    padding: 10px;
+    margin-top: 20px;
+    img {
+      .border-radius(50%);
+    }
+    p {
+      margin-top: 7px;
+    }
+  }
 }
 
 .sect_2 {
+  .info_3 {
+    margin-top: 0;
+    padding: 0 10px;
+    img {
+      border: 5px solid #fff;
+    }
+  }
 }
 
 /*
