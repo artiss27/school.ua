@@ -271,6 +271,18 @@ header {
       box-sizing: border-box;
       width: 100%;
     }
+    @media screen and (max-width: 768px) {
+      float: none;
+      margin: auto;
+      margin-bottom: 30px;
+      width: 55%;
+    }
+    @media screen and (max-width: 600px) {
+      width: 70%;
+    }
+    @media screen and (max-width: 420px) {
+      width: 100%;
+    }
   }
 }
 
@@ -356,7 +368,7 @@ header {
 
 footer {
   background: #622103;
-  height: 134px;
+  min-height: 134px;
   width: 100%;
   margin-top: 80px;
   .info_3 {
@@ -380,24 +392,53 @@ footer {
       font-size: 10px;
       text-transform: uppercase;
     }
+  }
+  .soc {
+    &:extend(.clearfix all);
+    p {
+      float: left;
+      width: 106px;
+    }
     .social {
-      .soc1, .soc2, .soc3, .soc4 {
+      &:extend(.clearfix all);
+      float: left;
+      a {
         display: block;
         float: left;
-        height: 40px;
-        width: 40px;
+        height: 39px;
+        width: 39px;
+        margin-top: 12px;
       }
       .soc1 {
         background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
       }
-
+      .soc2 {
+        background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+      }
+      .soc3 {
+        background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+      }
+      .soc4 {
+        background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+      }
     }
   }
 }
 
+.info_3 {
+  @media screen and (max-width: 768px) {
+    float: none;
+    margin: auto;
+    width: 55%;
+  }
+}
 
 
 /*
+    float: none;
+    margin: auto;
+    width: 55%;
+
 <i class="sprite sprite-icon"></i>
 <i class="sprite sprite-icon-1"></i>
 <i class="sprite sprite-icon-2"></i>

@@ -172,7 +172,7 @@
                 <div>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</div>
             </address>
         </div>
-        <div class="info_3">
+        <div class="info_3 soc">
             <p>Follow Us</p>
 
             <div class="social">

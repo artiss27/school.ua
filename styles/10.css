@@ -29,7 +29,11 @@ header .top:after,
 footer:before,
 footer:after,
 .sect_2 .info_3 .info_small:before,
-.sect_2 .info_3 .info_small:after {
+.sect_2 .info_3 .info_small:after,
+footer .soc:before,
+footer .soc:after,
+footer .soc .social:before,
+footer .soc .social:after {
   content: " ";
   display: table;
 }
@@ -39,7 +43,9 @@ header .top:after,
 .sect_1:after,
 .sect_2:after,
 footer:after,
-.sect_2 .info_3 .info_small:after {
+.sect_2 .info_3 .info_small:after,
+footer .soc:after,
+footer .soc .social:after {
   clear: both;
 }
 section,
@@ -329,6 +335,30 @@ footer .info_3 img {
   box-sizing: border-box;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  .sect_1 .info_3,
+  .sect_2 .info_3,
+  footer .info_3 {
+    float: none;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .sect_1 .info_3,
+  .sect_2 .info_3,
+  footer .info_3 {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sect_1 .info_3,
+  .sect_2 .info_3,
+  footer .info_3 {
+    width: 100%;
+  }
+}
 .sect_1 {
   text-align: center;
 }
@@ -409,7 +439,7 @@ footer .info_3 img {
 }
 footer {
   background: #622103;
-  height: 134px;
+  min-height: 134px;
   width: 100%;
   margin-top: 80px;
 }
@@ -435,19 +465,44 @@ footer .info_3 div {
   font-size: 10px;
   text-transform: uppercase;
 }
-footer .info_3 .social .soc1,
-footer .info_3 .social .soc2,
-footer .info_3 .social .soc3,
-footer .info_3 .social .soc4 {
+footer .soc p {
+  float: left;
+  width: 106px;
+}
+footer .soc .social {
+  float: left;
+}
+footer .soc .social a {
   display: block;
   float: left;
-  height: 40px;
-  width: 40px;
+  height: 39px;
+  width: 39px;
+  margin-top: 12px;
 }
-footer .info_3 .social .soc1 {
+footer .soc .social .soc1 {
   background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
 }
+footer .soc .social .soc2 {
+  background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+}
+footer .soc .social .soc3 {
+  background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+}
+footer .soc .social .soc4 {
+  background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll 0 0;
+}
+@media screen and (max-width: 768px) {
+  .info_3 {
+    float: none;
+    margin: auto;
+    width: 55%;
+  }
+}
 /*
+    float: none;
+    margin: auto;
+    width: 55%;
+
 <i class="sprite sprite-icon"></i>
 <i class="sprite sprite-icon-1"></i>
 <i class="sprite sprite-icon-2"></i>
