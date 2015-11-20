@@ -139,34 +139,50 @@
             <a class="button" href="#">MORE</a>
         </section>
         <section class="info_3">
-            <div class="info_small">
+            <section class="info_small">
                 <div class="circle">01.</div>
                 <div class="big">vegetable seeds</div>
-            </div>
-            <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolorese
-                magna aiqu. </p>
+                <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolorese
+                    magna aiqu. </p>
+            </section>
 
-            <div class="info_small">
+            <section class="info_small space">
                 <div class="circle">02.</div>
                 <div class="big">agricultural seeds</div>
-            </div>
-            <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet dolorese
-                magna aiqu. </p>
+                <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolorese
+                    magna aiqu. </p>
+            </section>
             <a class="button" href="#">MORE</a>
         </section>
     </div>
 </main>
 <footer>
-    <p>copyright</p>
-    <span>&copy 2013  | <a href="#">Privacy Policy</a></span>
+    <div class="footer_info">
+        <div class="info_3">
+            <p>copyright</p>
 
-    <address>
-        <p>address</p>
-        <span>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</span>
-    </address>
+            <div>&copy 2013 | <a href="#">Privacy Policy</a></div>
+        </div>
+        <div class="info_3">
+            <address>
+                <p>address</p>
 
-    <p>Follow Us</p>
-    <span>&nbsp;</span>
+                <div>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</div>
+            </address>
+        </div>
+        <div class="info_3">
+            <p>Follow Us</p>
+
+            <div class="social">
+                <a class="soc1" href="#"></a>
+                <a class="soc2" href="#"></a>
+                <a class="soc3" href="#"></a>
+                <a class="soc4" href="#"></a>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
