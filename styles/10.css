@@ -508,45 +508,6 @@ footer .soc .social .soc4:hover {
     width: 55%;
   }
 }
-/*
-    float: none;
-    margin: auto;
-    width: 55%;
-
-<i class="sprite sprite-icon"></i>
-<i class="sprite sprite-icon-1"></i>
-<i class="sprite sprite-icon-2"></i>
-<i class="sprite sprite-icon-3"></i>
-
-
-
-
-
-.stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
-    background-position: @x @y;
-    width: @width;
-    height: @height;
+.flexslider {
+  overflow: hidden;
 }
-
-.sprite {
-    background-image: url(spritesheet.png);    background-repeat: no-repeat;
-    display: block;
-
-    &.sprite-icon {
-        .stitches-sprite(-5px, -5px, 34px, 68px);
-    }
-
-    &.sprite-icon-1 {
-        .stitches-sprite(-49px, -5px, 34px, 68px);
-    }
-
-    &.sprite-icon-2 {
-        .stitches-sprite(-93px, -5px, 34px, 68px);
-    }
-
-    &.sprite-icon-3 {
-        .stitches-sprite(-137px, -5px, 34px, 68px);
-    }
-}
-
-*/
