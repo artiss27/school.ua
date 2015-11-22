@@ -89,7 +89,7 @@ h2 {
   font-family: Anton;
   src: url(/styles/fonts/Anton.ttf);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   select,
   textarea,
   input[type="text"],
@@ -163,7 +163,7 @@ header .top .dark a:hover {
   display: block;
   margin-top: 30px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .nav_top {
     display: none;
   }
@@ -277,7 +277,7 @@ header .top .dark a:hover {
   display: none;
   padding: 25px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .nav_mobile {
     display: block;
   }
@@ -334,7 +334,7 @@ footer .info_3 img {
   box-sizing: border-box;
   width: 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .sect_1 .info_3,
   .sect_2 .info_3,
   footer .info_3 {
@@ -344,7 +344,7 @@ footer .info_3 img {
     width: 55%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .sect_1 .info_3,
   .sect_2 .info_3,
   footer .info_3 {
@@ -501,7 +501,7 @@ footer .soc .social .soc4 {
 footer .soc .social .soc4:hover {
   background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll -137px -39px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .info_3 {
     float: none;
     margin: auto;
