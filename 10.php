@@ -20,6 +20,7 @@
     <link href="/styles/10.css" rel="stylesheet">
     <!--<script src="/scripts.js" defer></script>-->
     <script src="/vendor/public/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="/styles/flexslider/flexslider.css" type="text/css" media="screen"/>
 </head>
 <body>
 <header>
@@ -78,8 +79,18 @@
     </nav>
 </header>
 <main>
-    <div class="banner">
-        <img src="/img/6/central.jpg" alt="слайдер">
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="/img/6/slide.jpg"/>
+            </li>
+            <li>
+                <img src="/img/6/slide-1.jpg"/>
+            </li>
+            <li>
+                <img src="/img/6/slide-2.jpg"/>
+            </li>
+        </ul>
     </div>
     <div class="sect_1">
         <article class="info_3">
@@ -184,5 +195,15 @@
         </div>
     </div>
 </footer>
+<!-- FlexSlider -->
+<script defer src="/js/jquery.flexslider-min.js"></script>
+<script>
+    // Can also be used with $(document).ready()
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "slide"
+        });
+    });
+</script>
 </body>
 </html>

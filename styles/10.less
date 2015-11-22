@@ -32,7 +32,7 @@ body {
   }
 }
 
-section, article, aside, footer, header, nav, hgroup {
+section, article, aside, footer, header, nav {
   display: block;
 }
 
@@ -69,7 +69,7 @@ h2 {
   src: url(/styles/fonts/Anton.ttf);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
     font-size: 16px;
   }
@@ -98,12 +98,12 @@ header {
   .top {
     &:extend(.clearfix all);
     padding-top: 60px;
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 450px) {
       padding-top: 25px;
     }
     .logo {
       float: left;
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 450px) {
         display: block;
         float: none;
         text-align: center;
@@ -113,7 +113,7 @@ header {
       float: right;
       font-size: 10px;
       margin: 44px 0 0;
-      @media screen and (max-width: 420px) {
+      @media screen and (max-width: 450px) {
         float: none;
         text-align: center;
         margin: 25px 0 0;
@@ -131,7 +131,7 @@ header {
 .nav_top {
   display: block;
   margin-top: 30px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: none;
   }
   ul {
@@ -225,7 +225,7 @@ header {
 .nav_mobile {
   display: none;
   padding: 25px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: block;
   }
   select {
@@ -271,7 +271,7 @@ header {
       box-sizing: border-box;
       width: 100%;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
       float: none;
       margin: auto;
       margin-bottom: 30px;
@@ -280,7 +280,7 @@ header {
     @media screen and (max-width: 600px) {
       width: 70%;
     }
-    @media screen and (max-width: 420px) {
+    @media screen and (max-width: 450px) {
       width: 100%;
     }
   }
@@ -356,7 +356,6 @@ header {
       .big {
          font-size: 36px;
          line-height: 1.2em;
-         font-size-adjust: 2px;
          font-weight: normal;
          font-family: "Anton", sans-serif;
          color: #d49d53;
@@ -438,7 +437,7 @@ footer {
 }
 
 .info_3 {
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     float: none;
     margin: auto;
     width: 55%;

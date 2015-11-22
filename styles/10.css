@@ -53,8 +53,7 @@ article,
 aside,
 footer,
 header,
-nav,
-hgroup {
+nav {
   display: block;
 }
 header,
@@ -90,7 +89,7 @@ h2 {
   font-family: Anton;
   src: url(/styles/fonts/Anton.ttf);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   select,
   textarea,
   input[type="text"],
@@ -129,7 +128,7 @@ a:hover {
 header .top {
   padding-top: 60px;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   header .top {
     padding-top: 25px;
   }
@@ -137,7 +136,7 @@ header .top {
 header .top .logo {
   float: left;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   header .top .logo {
     display: block;
     float: none;
@@ -149,7 +148,7 @@ header .top .dark {
   font-size: 10px;
   margin: 44px 0 0;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   header .top .dark {
     float: none;
     text-align: center;
@@ -164,7 +163,7 @@ header .top .dark a:hover {
   display: block;
   margin-top: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .nav_top {
     display: none;
   }
@@ -278,7 +277,7 @@ header .top .dark a:hover {
   display: none;
   padding: 25px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .nav_mobile {
     display: block;
   }
@@ -335,7 +334,7 @@ footer .info_3 img {
   box-sizing: border-box;
   width: 100%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .sect_1 .info_3,
   .sect_2 .info_3,
   footer .info_3 {
@@ -352,7 +351,7 @@ footer .info_3 img {
     width: 70%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   .sect_1 .info_3,
   .sect_2 .info_3,
   footer .info_3 {
@@ -431,7 +430,6 @@ footer .info_3 img {
 .sect_2 .info_3 .info_small .big {
   font-size: 36px;
   line-height: 1.2em;
-  font-size-adjust: 2px;
   font-weight: normal;
   font-family: "Anton", sans-serif;
   color: #d49d53;
@@ -503,7 +501,7 @@ footer .soc .social .soc4 {
 footer .soc .social .soc4:hover {
   background: rgba(0, 0, 0, 0) url("../img/6/social.png") no-repeat scroll -137px -39px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .info_3 {
     float: none;
     margin: auto;
