@@ -245,6 +245,9 @@ header .top .dark a:hover {
   line-height: 25px;
   font-size: 10px;
   padding: 20px 0;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 .nav_top ul .level1 .level2 a,
 .nav_top ul .hr_level2 .level2 a {
@@ -510,4 +513,5 @@ footer .soc .social .soc4:hover {
 }
 .flexslider {
   overflow: hidden;
+  border: medium none !important;
 }
