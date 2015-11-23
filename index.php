@@ -4,8 +4,6 @@ ini_set('display_errors', 1);
 header('Content-Type: text/html; charset=utf-8');
 //session_start();
 ?>
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
