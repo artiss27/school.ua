@@ -127,7 +127,7 @@
 
     <div class="line"></div>
 
-    <div class="sect_2">
+    <sec class="sect_2">
         <div class="info_3">
             <p class="h3_b">welcome!</p>
             <img src="/img/6/page-img-3.png" alt="Приветствие">
@@ -149,25 +149,25 @@
                 nobis est eligendi opticumque </p>
             <a class="button" href="#">MORE</a>
         </div>
-        <section class="info_3">
-            <section class="info_small">
+        <div class="info_3">
+            <div class="info_small">
                 <div class="circle">01.</div>
                 <div class="big">vegetable seeds</div>
                 <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
                     dolorese
                     magna aiqu. </p>
-            </section>
+            </div>
 
-            <section class="info_small space">
+            <div class="info_small space">
                 <div class="circle">02.</div>
                 <div class="big">agricultural seeds</div>
                 <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
                     dolorese
                     magna aiqu. </p>
-            </section>
+            </div>
             <a class="button" href="#">MORE</a>
-        </section>
-    </div>
+        </div>
+    </sec>
 </main>
 <footer>
     <div class="footer_info">
