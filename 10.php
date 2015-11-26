@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
     <meta charset="UTF-8">
+    <!--<link rel="dns-prefetch" href="адрес сайта для запроса ДНС"> тут запрашиваем ДНС заранее-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Домашнее задание 2</title>
     <meta name="apple-mobile-web-app-title" content="Заголовок без SEO">
@@ -127,7 +128,7 @@
 
     <div class="line"></div>
 
-    <sec class="sect_2">
+    <section class="sect_2">
         <div class="info_3">
             <p class="h3_b">welcome!</p>
             <img src="/img/6/page-img-3.png" alt="Приветствие">
@@ -152,7 +153,7 @@
         <div class="info_3">
             <div class="info_small">
                 <div class="circle">01.</div>
-                <div class="big">vegetable seeds</div>
+                <h3 class="big">vegetable seeds</h3>
                 <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
                     dolorese
                     magna aiqu. </p>
@@ -160,14 +161,14 @@
 
             <div class="info_small space">
                 <div class="circle">02.</div>
-                <div class="big">agricultural seeds</div>
+                <h3 class="big">agricultural seeds</h3>
                 <p>Lorem ipsum dolor sit ctetueradipiscing elit. Sed diam nonummy nibh euismod tincidunt ut laoreet
                     dolorese
                     magna aiqu. </p>
             </div>
             <a class="button" href="#">MORE</a>
         </div>
-    </sec>
+    </section>
 </main>
 <footer>
     <div class="footer_info">
