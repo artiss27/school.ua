@@ -5,6 +5,8 @@ php_flag magic_quotes_gpc off
 php_flag magic_quotes_runtime off
 php_flag register_globals off
 
+ErrorDocument 404 /404
+
 php_value memory_limit 128M
 php_value upload_max_filesize 50M
 php_value post_max_size 50M
@@ -18,3 +20,15 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
 
+#установка кеширования на стороне клиента
+#<filesMatch "\.(css|js)$">
+#ExpiresActive On
+#ExpiresDefault "access plus 1 week"
+#Header append Cache-Control "public"
+#</filesMatch>
+
+#<filesMatch "\.(ico|gif|jpg|png|woff)$">
+#ExpiresActive On
+#ExpiresDefault "access plus 11 month"
+#Header append Cache-Control "public"
+#</filesMatch>
