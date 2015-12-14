@@ -18,15 +18,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
 
-#установка кеширования на стороне клиента
-#<filesMatch "\.(css|js)$">
-#ExpiresActive On
-#ExpiresDefault "access plus 1 week"
-#Header append Cache-Control "public"
-#</filesMatch>
-
-#<filesMatch "\.(ico|gif|jpg|png|woff)$">
-#ExpiresActive On
-#ExpiresDefault "access plus 11 month"
-#Header append Cache-Control "public"
-#</filesMatch>
